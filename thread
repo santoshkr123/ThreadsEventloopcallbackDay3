@@ -1,0 +1,25 @@
+threads  | event loop | callback 
+
+website 
+Request                                Response
+|                                         |
+Input                                  Result
+|                                         |
+Browser(client)                         Server
+|                                         
+axios , fetch , ajax
+
+
+
+event loop 
+|
+non blocking I/O Operation 
+
+callback 
+|
+function(function(){})
+           |
+           callback
+           handle by event loop
+
+           
